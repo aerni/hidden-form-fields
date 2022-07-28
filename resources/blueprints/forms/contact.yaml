@@ -1,0 +1,46 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: visibility_visible
+        field:
+          input_type: text
+          antlers: false
+          display: 'Visibility: Visible'
+          type: text
+          icon: text
+          listable: true
+          instructions_position: above
+          visibility: visible
+      -
+        handle: visibility_read_only
+        field:
+          input_type: text
+          antlers: false
+          display: 'Visibility: Read Only'
+          type: text
+          icon: text
+          listable: true
+          instructions_position: above
+          visibility: read_only
+      -
+        handle: visibility_hidden
+        field:
+          input_type: text
+          antlers: false
+          display: 'Visibility: Hidden'
+          type: text
+          icon: text
+          listable: true
+          instructions_position: above
+          visibility: hidden
+      -
+        handle: hidden_fieldtype
+        field:
+          display: 'Hidden Fieldtype'
+          type: hidden
+          icon: hidden
+          listable: true
+          instructions_position: above
+          visibility: visible

@@ -1,0 +1,4 @@
+visibility_visible: foo
+visibility_read_only: foo
+visibility_hidden: foo
+hidden_fieldtype: foo

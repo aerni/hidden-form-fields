@@ -24,6 +24,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        \Statamic\Fieldtypes\Hidden::makeSelectableInForms();
+
         // Statamic::script('app', 'cp');
         // Statamic::style('app', 'cp');
     }
